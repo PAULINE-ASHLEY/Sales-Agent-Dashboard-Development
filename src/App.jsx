@@ -1,3 +1,17 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+// Importing Icons
+import 'remixicon/fonts/remixicon.css';
+
+import './App.css';
+import Header from './components/Header';
+import SideBar from './components/SideBar/SideBar';
+
+function App() {
+  return (
+    <>
+      <Header />
+      <SideBar />
+    </>
+  );
 }
+
+export default App;
